@@ -1,0 +1,11 @@
+run-h:
+    crystal run ./help.cr -- -h
+
+run-help:
+    crystal run ./help.cr -- --help
+
+run-v:
+    crystal run ./help.cr -- -v
+
+run-version:
+    crystal run ./help.cr -- --version
